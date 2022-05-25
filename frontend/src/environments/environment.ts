@@ -7,7 +7,7 @@ export const environment = {
   logo: '../assets/img/startwars.png',
   urlDptoSIC: 'https://git.institutomilitar.com/',
   host: 'http://swapi.dev/api/',
-  itemsPorPagina: 10
+  itemsPorPagina: 100
 };
 /*
  * For easier debugging in development mode, you can import the following file

@@ -3,5 +3,5 @@ export const environment = {
   logo: '../assets/img/darthVader.jpg',
   urlDptoSIC: 'https://git.institutomilitar.com/',
   host: 'http://swapi.dev/api/',
-  itemsPorPagina: 10
+  itemsPorPagina: 100
 };

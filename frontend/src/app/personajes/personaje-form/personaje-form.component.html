@@ -8,10 +8,10 @@
           'is-valid': !pers.invalid
         }" />
       <div class="text-danger" *ngIf="pers.invalid && (pers.dirty || pers.touched)">
-        <div *ngIf="pers.errors.required">
+        <div *ngIf="pers.errors">
           El Nombre del Personaje es obligatorio
         </div>
-        <div *ngIf="pers.errors.minlength">
+        <div *ngIf="pers.errors">
           El Nombre del Personaje debe tener al menos 3
         </div>
       </div>
@@ -26,10 +26,10 @@
           'is-valid': !fechNac.invalid
         }" />
       <div class="text-danger" *ngIf="fechNac.invalid && (fechNac.dirty || fechNac.touched)">
-        <div *ngIf="fechNac.errors.required">
+        <div *ngIf="fechNac.errors">
           La Fecha de Nacimiento es obligatorio
         </div>
-        <div *ngIf="fechNac.errors.minlength && fechNac.errors.maxlength">
+        <div *ngIf="fechNac.errors">
           La fecha de nacimiento debe tener 5 Caracteres
         </div>
       </div>
